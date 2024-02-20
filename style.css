@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 18px
+}
+
+.sec-1 {
+    background-image: url("images/bg-header-desktop.png");
+}
+
+.sec-1 svg {
+    display: block; 
+    margin: auto;
+    padding-top: 10%;
+    padding-bottom: 4%;
+}
+
+.sec-2 {
+    text-align: center;
+}
+
+.incs {
+    font-size: 39px;
+    margin-bottom: 1.5%;
+}
+
+.clip {
+    margin: 0 27%;
+    opacity: 0.5;
+}
+
+button {
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 50px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.btn1 {
+    background-color: #26baa4;
+    margin-right: 10px;
+}
+
+.btn1:hover {
+    background-color: #12e0c1;
+}
+
+.btn2 {
+    background-color: #6173ff;
+}
+
+.btn2:hover {
+    background-color: #818ffc;
+}
+
+
+.sec-3 {
+    text-align: center;
+}
+
+.sec-3 h1 {
+    margin-bottom: 1.5%;
+    font-size: 37px;
+}
+
+.sto {
+    margin: 0 25%;
+    opacity: 0.5;
+}
+
+.sec-4 {
+    display: flex;
+    margin-top: 5%;
+    height: 600px;
+    box-sizing: border-box;
+    gap: 10%;
+    margin-bottom: 10%;
+}
+
+.sec-4 .text {
+    width: 40%;
+    height: 600px;
+    padding-right: 10%;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+
+h2 {
+    margin-bottom: 3%;
+}
+
+.text p {
+    margin-bottom: 13%;
+    line-height: 150%;
+    opacity: 0.5;
+}
+
+.sec-5 {
+    text-align: center;
+    height: 600px;
+    margin-bottom: 12%;
+}
+
+.sec-5 .access {
+    height: 20%;
+    margin-bottom: 3%;
+}
+
+.sec-5 .access h1 {
+    margin-bottom: 1.5%;
+    font-size: 35px;
+}
+
+.sec-5 .access p {
+    opacity: 0.5;
+    margin: 0 25%;
+}
+
+
+.sec-5 .bg-img {
+    height: 80%;
+}
+
+.sec-6 {
+    text-align: center;
+}
+
+.sec-6 h1 {
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+.sec-6 p {
+    opacity: 0.5;
+}
+
+.sec-6 .top-sec {
+    margin-bottom: 5%;
+}
+
+.bottom-sec {
+    display: flex;
+    gap: 2%;
+    padding: 0 8%;
+    margin-bottom: 8%;
+}
+
+.cb, .pt, .sp {
+    box-sizing: border-box;
+    width: 33%;
+}
+
+.bottom-sec h2 {
+    margin-bottom: 4%;
+}
+
+.pt svg {
+    margin-bottom: 2%;
+}
+
+.sp svg {
+    margin-bottom: 2%;
+}
+
+.sec-7 {
+    display: flex;
+    gap: 8%;
+    padding-left: 8%;
+    box-sizing: border-box;
+    margin-bottom: 8%;
+}
+
+.sec-8 {
+    text-align: center;
+}
+
+.sec-8 h1 {
+    font-size: 32px;
+    margin-bottom: 1.5%;
+}
+
+footer {
+    display: flex;
+    background-color: #dcdcdc;
+    height: 60px;
+    padding: 2% 10%;
+}
+
+footer > svg {
+    width: 50px;
+    height: 50px;
+}
+
+footer .ques {
+    width: 60%;
+    display: flex;
+    box-sizing: border-box;
+    gap: 17%;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+footer .ques p:hover {
+    color: #26baa4;
+    cursor: pointer;
+}
+
+footer .social {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social > svg {
+    margin-left: 10%;
+}
+
+footer .social svg:hover path {
+    fill: #26baa4;
+    cursor: pointer;
+}
+
+.priv {
+    margin-left: 7%;
+}
+
+@media (max-width: 375px) {
+    body {
+        width: 100vw;
+    }
+
+    .sec-1 {
+        background-image: url("images/bg-header-mobile.png");
+    }
+
+    .clip {
+        margin: 0 1.5%;;
+    }
+
+    .sec-3 {
+        margin-bottom: 15%;
+    }
+
+    button {
+        padding: 3% 17%;
+    }
+
+    .btn1 {
+        margin-top: 10%;
+    }
+
+    .sto {
+        margin: 3%;
+    } 
+
+    .sec-4 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comp img {
+        width: 100%;
+        height: 300px;
+        margin: 0 4%;
+    }
+
+    .sec-4 .text {
+        text-align: center;
+        width: 100%;
+        padding-right: 0%;
+    }
+
+    .sec-5 {
+        margin-top: 70%;
+    }
+
+    .sec-5 .access p {
+        margin: 0 2%;
+    }
+
+    .sec-5 .bg-img img {
+        margin-top: 10%;
+        height: 100%;
+        width: 100%;
+    }
+    
+
+    .bottom-sec {
+        flex-direction: column;
+    }
+
+    .cb, .pt, .sp {
+        width: 100%;
+    }
+
+    .bottom-sec svg {
+        margin-top: 15%;
+        margin-bottom: 10%;
+    }
+
+    .sec-7 {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .sec-7 img {
+        width: 130px;
+        height: 50px;
+        margin-bottom: 15%;
+        padding-left: 30%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 0;
+        padding: 0%;
+    }
+
+    footer .ques {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+
+    }
+
+    footer .ques p {
+        margin-bottom: 8%;
+    }
+
+    footer .ques .faqs {
+        margin-top: 5%;
+    }
+
+    footer > svg {
+        margin-top: 7%;
+    }
+
+    footer .social {
+        width: 100%;
+        padding-bottom: 8%; 
+    }
+
+    footer .social > svg {
+        margin-left: 5%;
+    }
+
+    .incs {
+        font-size: 35px;
+    }
+}
